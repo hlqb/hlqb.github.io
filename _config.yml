@@ -1,0 +1,23 @@
+# Site settings
+title: Harlequin Blue
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://hlqb.github.io" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  hlqb
+
+# Build settings
+safe: true
+lsi: false
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strkethrough", "with_toc_data", "tables"]
+  
+highlighter : pygments
+
+permalink: /articles/:categories/:title
+
+pagenate: 20
